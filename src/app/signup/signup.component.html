@@ -8,30 +8,31 @@
                     <h6>Register</h6>
                 </div>
                 <form>
-                    <form>
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputFUllName1" class="form-label">Full Name</label>
+                            <input formControlName="fullName"  type="text" id="exampleInputFUllName1" class="form-control" id="inputFullName1">
                           </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Phone Number </label>
-                            <input type="number" class="form-control" id="exampleInputPassword1">
+                            <label for="exampleInputPhoneNumber1" class="form-label">Phone Number </label>
+                            <input input formControlName="phoneNumber" type="number" id="exampleInputPhoneNumber" class="form-control" id="inputPhoneNumber1">
                           </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          <input formControlName="email" type="email"id="exampleInputEmail1" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">All information is private.</div>
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <input formControlName="password" type="password" class="form-control" id="inputPassword1">
                         </div>
                         
                         <button type="submit" class="btn btn-primary">Sign up
 
                         </button>
-                      </form>
+                      
                       <a style="color:white; margin-top: 10px;" routerLink="/login">Already registered click to login</a>
+                </form>
                 </form>
             </div>
         </div>

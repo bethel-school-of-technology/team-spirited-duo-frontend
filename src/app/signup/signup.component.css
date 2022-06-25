@@ -7,7 +7,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: blue;
+    background: linear-gradient(to top right, #99ccff 0%, #3333cc 100%);
     
 
 }
