@@ -19,19 +19,19 @@ export class LoginComponent implements OnInit {
     })
 
   }
-  login(){
+  login() {
     this.http.get<any>("http://localhost:3000/userSignUp")
-    .subscribe(res=>{
-      const user = res.find((a:any)=>{
-        return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password
-      });
-      if (user){
-        alert("You have successfully logged in!");
-        this.loginForm.reset();
-        this.router.navigate(['catgory-list'])
-      }else{
-        alert("User not found!");
-      }
-    })
+      .subscribe(res => {
+        const user = res.find((a: any) => {
+          return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password
+        });
+        if (user) {
+          alert("You have successfully logged in!");
+          this.loginForm.reset();
+          this.router.navigate(['category-list'])
+        } else {
+          alert("User not found!");
+        }
+      })
   }
 }
