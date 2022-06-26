@@ -110,7 +110,7 @@
       "id": 60,
       "family": "Malvaceae",
       "order": "Malvales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/durian-fruit-ripe-tasty-that-has-1726591720",
       "nutritions": {
         "carbohydrates": 27.1,
         "protein": 1.5,
@@ -125,7 +125,7 @@
       "id": 68,
       "family": "Moraceae",
       "order": "Rosales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/tasty-figs-bowl-on-wooden-background-1901618311",
       "nutritions": {
         "carbohydrates": 19,
         "protein": 0.8,
@@ -140,7 +140,7 @@
       "id": 69,
       "family": "Grossulariaceae",
       "order": "Saxifragales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/closeup-three-indian-gooseberry-fruits-amla-1529627396",
       "nutritions": {
         "carbohydrates": 10,
         "protein": 0.9,
@@ -155,7 +155,7 @@
       "id": 47,
       "family": "Vitaceae",
       "order": "Vitales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/grapes-basket-on-wooden-background-harvesting-1429544153",
       "nutritions": {
         "carbohydrates": 18.1,
         "protein": 0.72,
@@ -185,7 +185,7 @@
       "id": 37,
       "family": "Myrtaceae",
       "order": "Myrtales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/isolated-guavas-one-whole-guava-fruit-1666538107",
       "nutritions": {
         "carbohydrates": 14,
         "protein": 2.6,
@@ -200,7 +200,7 @@
       "id": 66,
       "family": "Actinidiaceae",
       "order": "Struthioniformes",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/ripe-whole-kiwi-fruit-half-isolated-699645964",
       "nutritions": {
         "carbohydrates": 15,
         "protein": 1.1,
@@ -215,7 +215,7 @@
       "id": 26,
       "family": "Rutaceae",
       "order": "Sapindales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/lemon-fruit-leaf-isolate-whole-half-1727353507",
       "nutritions": {
         "carbohydrates": 9,
         "protein": 1.1,
@@ -230,7 +230,7 @@
       "id": 44,
       "family": "Rutaceae",
       "order": "Sapindales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/natural-fresh-lime-water-drops-sliced-1255880620",
       "nutritions": {
         "carbohydrates": 8.4,
         "protein": 0.3,
@@ -245,7 +245,7 @@
       "id": 65,
       "family": "Ericaceae",
       "order": "Ericales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/lingonberry-leaves-isolated-on-white-background-1470022979",
       "nutritions": {
         "carbohydrates": 11.3,
         "protein": 0.75,
@@ -260,7 +260,7 @@
       "id": 67,
       "family": "Sapindaceae",
       "order": "Sapindales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/lychee-isolated-on-white-background-1897631905",
       "nutritions": {
         "carbohydrates": 17,
         "protein": 0.8,
@@ -275,7 +275,7 @@
       "id": 27,
       "family": "Anacardiaceae",
       "order": "Sapindales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/lychee-isolated-on-white-background-1897631905",
       "nutritions": {
         "carbohydrates": 15,
         "protein": 0.82,
@@ -290,7 +290,7 @@
       "id": 41,
       "family": "Cucurbitaceae",
       "order": "Cucurbitaceae",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/topview-on-different-fresh-melons-some-1381133192",
       "nutritions": {
         "carbohydrates": 8,
         "protein": 0,
@@ -305,7 +305,7 @@
       "id": 2,
       "family": "Rutaceae",
       "order": "Sapindales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/orange-cut-half-green-leaves-isolated-1927497314",
       "nutritions": {
         "carbohydrates": 8.3,
         "protein": 1,
@@ -320,7 +320,7 @@
       "id": 42,
       "family": "Caricaceae",
       "order": "Caricacea",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/fresh-ripe-papaya-fruits-green-leaves-1892565679",
       "nutritions": {
         "carbohydrates": 11,
         "protein": 0,
@@ -335,7 +335,7 @@
       "id": 70,
       "family": "Passifloraceae",
       "order": "Malpighiales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/purple-passion-fruit-passiflora-edulis-cut-1272432640",
       "nutritions": {
         "carbohydrates": 22.4,
         "protein": 2.2,
@@ -350,7 +350,7 @@
       "id": 4,
       "family": "Rosaceae",
       "order": "Rosales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/isolated-pears-one-half-green-pear-1494561377",
       "nutritions": {
         "carbohydrates": 15,
         "protein": 0.4,
@@ -365,7 +365,7 @@
       "id": 52,
       "family": "Ebenaceae",
       "order": "Rosales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/fresh-ripe-persimmons-leaf-isolated-on-1421497226",
       "nutritions": {
         "carbohydrates": 18,
         "protein": 0,
@@ -380,7 +380,7 @@
       "id": 10,
       "family": "Bromeliaceae",
       "order": "Poales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/fresh-ripe-pineapple-fruit-slices-isolated-1609022182",
       "nutritions": {
         "carbohydrates": 13.12,
         "protein": 0.54,
@@ -395,7 +395,7 @@
       "id": 71,
       "family": "Rosaceae",
       "order": "Rosales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/juicy-red-plum-fruits-cut-half-1661209357",
       "nutritions": {
         "carbohydrates": 11.4,
         "protein": 0.7,
@@ -425,7 +425,7 @@
       "id": 3,
       "family": "Rosaceae",
       "order": "Rosales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/raspberry-fruit-isolated-over-white-background-349554923",
       "nutritions": {
         "carbohydrates": 5.5,
         "protein": 0.8,
@@ -440,7 +440,7 @@
       "id": 5,
       "family": "Solanaceae",
       "order": "Solanales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/tomato-isolated-on-white-background-fresh-1565321857",
       "nutritions": {
         "carbohydrates": 3.9,
         "protein": 0.9,
@@ -455,7 +455,7 @@
       "id": 73,
       "family": "Anacardiaceae",
       "order": "0",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/ripe-umbu-spondias-tuberosa-fruits-isolated-2090840734",
       "nutritions": {
         "carbohydrates": 0,
         "protein": 0,
@@ -470,7 +470,7 @@
       "id": 25,
       "family": "Cucurbitaceae",
       "order": "Cucurbitales",
-      "image": "",
+      "image": "https://www.shutterstock.com/image-photo/whole-half-watermelon-isolated-on-white-1422071948",
       "nutritions": {
         "carbohydrates": 8,
         "protein": 0.6,
@@ -487,99 +487,7 @@
       "author": "typicode"
     }
   ],
-  "userSignup": [
-    {
-      "fullname": "",
-      "phoneNumber": 2163161131,
-      "email": "shorter4034@gmail.com",
-      "password": "123456",
-      "id": 1
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 2163815584,
-      "email": "shorter4034@gmail.com",
-      "password": "12345",
-      "id": 2
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 2133211234,
-      "email": "asd@enn.com",
-      "password": "654321",
-      "id": 3
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 121313,
-      "email": "as@as.com",
-      "password": "321",
-      "id": 4
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 4322,
-      "email": "a@b.com",
-      "password": "1234",
-      "id": 5
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 5433,
-      "email": "asd@enn.com",
-      "password": "4211",
-      "id": 6
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 45212,
-      "email": "as@as.com",
-      "password": "1234",
-      "id": 7
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 123412,
-      "email": "as@as.com",
-      "password": "1231",
-      "id": 8
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 12313,
-      "email": "as@as.com",
-      "password": "1234",
-      "id": 9
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 1234,
-      "email": "as@as.com",
-      "password": "1234",
-      "id": 10
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 1231,
-      "email": "as@as.com",
-      "password": "1234",
-      "id": 11
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 12313,
-      "email": "as@as.com",
-      "password": "12313",
-      "id": 12
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 23213,
-      "email": "as@bc.com",
-      "password": "1234",
-      "id": 13
-    }
-  ],
+  "userSignup": [],
   "profile": {
     "name": "typicode"
   }
