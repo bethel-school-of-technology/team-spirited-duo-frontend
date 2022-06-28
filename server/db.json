@@ -487,7 +487,29 @@
       "author": "typicode"
     }
   ],
-  "userSignup": [],
+  "userSignup": [
+    {
+      "fullname": "",
+      "phoneNumber": 12345,
+      "email": "as@jb.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "fullname": "",
+      "phoneNumber": 1234,
+      "email": "as.jb.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "fullname": "",
+      "phoneNumber": 1234,
+      "email": "as@jc.com",
+      "password": "1234",
+      "id": 3
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
