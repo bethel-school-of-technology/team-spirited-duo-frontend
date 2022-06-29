@@ -11,19 +11,22 @@
 
 
 <body>
-    <div *ngFor="let product of products" class="card bg-dark text-white" style="max-width: 540px;">
+    <div *ngFor="let product of products" class="card bg-dark text-white" style="max-width: 700px;">
         <div class="row no-gutters">
             <div class="col-md-4">
-                <img src="..." class="card-img" alt="...">
+                <img src="{{product.image}} " class="card-img" alt="{{product.name}}">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title"> {{product.name}}</h5>
                     <br>
-                    <h5> {{product.image}} </h5>
-                    <br>
+                   
                     <p> Each product is hand picked! See below for the nutrients. </p>
-                    <h5> {{product.nutritions}} </h5>
+                    <td> Carbohydrates: {{product.nutritions.carbohydrates}} g </td>
+                    <td> Protein: {{product.nutritions.protein}} g </td>
+                    <td> Fat: {{product.nutritions.fat}} g </td>
+                    <td> Calories: {{product.nutritions.calories}} g </td>
+                    <td> Sugar: {{product.nutritions.sugar}} g </td>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
