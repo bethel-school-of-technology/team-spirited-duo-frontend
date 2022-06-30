@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
@@ -11,7 +12,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ProductListComponent implements OnInit {
   public products: any;
 
-  constructor(private http: HttpClient, private actRoute: ActivatedRoute) { }
+  constructor(private http: HttpClient, private actRoute: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     let url = 'http://localhost:3000/products';
@@ -25,6 +26,17 @@ export class ProductListComponent implements OnInit {
     });
 
 
+  }
+  addToCart(id: number, name:string, image:string){
+    alert('started add tocart');
+    let cart = {
+      id: id, name: name, image: image, quantity: 1
+    };
+    this.http.post<any>("http://localhost:3000/cart", cart)
+            .subscribe(res => {
+              alert("You have successfully added item to cart");
+              this.router.navigate(['cart']);
+            })
   }
 
 }

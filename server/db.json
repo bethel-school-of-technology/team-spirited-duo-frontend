@@ -430,7 +430,6 @@
       "order": "Rosales",
       "image": "https://image.shutterstock.com/image-photo/strawberry-berry-fruit-cut-half-600w-1914671407.jpg",
       "nutritions": {
-
         "carbohydrates": 5.5,
         "protein": 0.8,
         "fat": 0.4,
@@ -514,7 +513,5 @@
       "id": 3
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "cart": []
 }
