@@ -1,519 +1,872 @@
 {
-  "categories": [
-    {
-      "id": 1,
-      "name": "Fruits"
-    },
-    {
-      "id": 2,
-      "name": "Vegetables"
-    },
-    {
-      "name": "testcateogry",
-      "id": 3
+    "categories": [
+        {
+            "id": 1,
+            "name": "Fruits"
+        },
+        {
+            "id": 2,
+            "name": "Vegetables"
+        },
+        {
+            "name": "testcateogry",
+            "id": 3
+        }
+    ],
+    "products": [
+        {
+            "genus": "Malus",
+            "name": "Apple",
+            "id": 6,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://pngimg.com/uploads/apple/apple_PNG12405.png",
+            "nutritions": {
+                "carbohydrates": 11.4,
+                "protein": 0.3,
+                "fat": 0.4,
+                "calories": 52,
+                "sugar": 10.3
+            }
+        },
+        {
+            "genus": "Prunus",
+            "name": "Apricot",
+            "id": 35,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
+            "nutritions": {
+                "carbohydrates": 3.9,
+                "protein": 0.5,
+                "fat": 0.1,
+                "calories": 15,
+                "sugar": 3.2
+            }
+        },
+        {
+            "genus": "Musa",
+            "name": "Banana",
+            "id": 1,
+            "categoryId": 1,
+            "family": "Musaceae",
+            "order": "Zingiberales",
+            "image": "https://image.shutterstock.com/image-photo/bunch-bananas-isolated-on-white-260nw-1722111529.jpg",
+            "nutritions": {
+                "carbohydrates": 22,
+                "protein": 1,
+                "fat": 0.2,
+                "calories": 96,
+                "sugar": 17.2
+            }
+        },
+        {
+            "genus": "Rubus",
+            "name": "Blackberry",
+            "id": 64,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://image.shutterstock.com/image-photo/blackberry-isolated-on-white-background-260nw-1505050502.jpg",
+            "nutritions": {
+                "carbohydrates": 9,
+                "protein": 1.3,
+                "fat": 0.4,
+                "calories": 40,
+                "sugar": 4.5
+            }
+        },
+        {
+            "genus": "Fragaria",
+            "name": "Blueberry",
+            "id": 33,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://image.shutterstock.com/image-photo/blueberry-isolated-leaves-on-white-260nw-1932312230.jpg",
+            "nutritions": {
+                "carbohydrates": 5.5,
+                "protein": 0,
+                "fat": 0.4,
+                "calories": 29,
+                "sugar": 5.4
+            }
+        },
+        {
+            "genus": "Prunus",
+            "name": "Cherry",
+            "id": 9,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "None",
+            "image": "https://image.shutterstock.com/image-photo/cherry-isolated-sour-cherries-leaf-260nw-2090063473.jpg",
+            "nutritions": {
+                "carbohydrates": 12,
+                "protein": 1,
+                "fat": 0.3,
+                "calories": 50,
+                "sugar": 8
+            }
+        },
+        {
+            "genus": "Durio",
+            "name": "Durian",
+            "id": 60,
+            "categoryId": 1,
+            "family": "Malvaceae",
+            "order": "Malvales",
+            "image": "https://i0.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2017/02/iStock-609794900.jpg?fit=1254%2C836",
+            "nutritions": {
+                "carbohydrates": 27.1,
+                "protein": 1.5,
+                "fat": 5.3,
+                "calories": 147,
+                "sugar": 6.75
+            }
+        },
+        {
+            "genus": "Ficus",
+            "name": "Fig",
+            "id": 68,
+            "categoryId": 1,
+            "family": "Moraceae",
+            "order": "Rosales",
+            "image": "https://th.bing.com/th/id/R.49631dd920f9c8e53d3e6490f4f508ec?rik=r%2blkQzLr9D2yFA&riu=http%3a%2f%2ffillyourplate.org%2fblog%2fwp-content%2fuploads%2f2013%2f10%2fbigstock-Fruits-figs-on-white-backgroun-46131991.jpg&ehk=sJ73uXvGWCZaTFvYB5mD99GoCcGJWJRlwG%2bLge947i8%3d&risl=&pid=ImgRaw&r=0",
+            "nutritions": {
+                "carbohydrates": 19,
+                "protein": 0.8,
+                "fat": 0.3,
+                "calories": 74,
+                "sugar": 16
+            }
+        },
+        {
+            "genus": "Ribes",
+            "name": "Gooseberry",
+            "id": 69,
+            "categoryId": 1,
+            "family": "Grossulariaceae",
+            "order": "Saxifragales",
+            "image": "https://th.bing.com/th/id/R.cff2c14ec25e4d9b700233144fce69b6?rik=XkuN%2bPA%2btLtS3A&riu=http%3a%2f%2flovebackyard.com%2fwp-content%2fuploads%2f2017%2f03%2fThe-European-types-are-larger-and-more-flavourful-than-the-American-types-of-gooseberries..jpg&ehk=tegE4VcYcOoMM84M3jZML%2brerP%2bQyQGwoEJyAYxr4S8%3d&risl=&pid=ImgRaw&r=0",
+            "nutritions": {
+                "carbohydrates": 10,
+                "protein": 0.9,
+                "fat": 0.6,
+                "calories": 44,
+                "sugar": 0
+            }
+        },
+        {
+            "genus": "Vitis",
+            "name": "Grapes",
+            "id": 47,
+            "categoryId": 1,
+            "family": "Vitaceae",
+            "order": "Vitales",
+            "image": "https://th.bing.com/th/id/OIP.kAZRHXusfaaVeBxDTJC8wQHaLI?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 18.1,
+                "protein": 0.72,
+                "fat": 0.16,
+                "calories": 69,
+                "sugar": 15.48
+            }
+        },
+        {
+            "genus": "Malus",
+            "name": "GreenApple",
+            "id": 72,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://th.bing.com/th/id/R.df54d5a5f9925519edb2bae0b2b067d9?rik=J5He6EOiPhIu7w&riu=http%3a%2f%2fmedia1.popsugar-assets.com%2ffiles%2fthumbor%2fklVhDgbyV9vF8tPU0xa3if6VeZc%2ffit-in%2f2048xorig%2ffilters%3aformat_auto-!!-%3astrip_icc-!!-%2f2014%2f04%2f17%2f011%2fn%2f1922153%2fbad9a66e822094bd_shutterstock_136348868%2fi%2fGreen-Apple.jpg&ehk=Fai%2bF35xWTpc60sd5mgpon5A72WISqhlxLpDYUDCsLE%3d&risl=&pid=ImgRaw&r=0",
+            "nutritions": {
+                "carbohydrates": 3.1,
+                "protein": 0.4,
+                "fat": 0.1,
+                "calories": 21,
+                "sugar": 6.4
+            }
+        },
+        {
+            "genus": "Psidium",
+            "name": "Guava",
+            "id": 37,
+            "categoryId": 1,
+            "family": "Myrtaceae",
+            "order": "Myrtales",
+            "image": "https://th.bing.com/th/id/OIP.eOCtT9uLz9-MYOLE3zAzPgHaD3?w=308&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "nutritions": {
+                "carbohydrates": 14,
+                "protein": 2.6,
+                "fat": 1,
+                "calories": 68,
+                "sugar": 9
+            }
+        },
+        {
+            "genus": "Apteryx",
+            "name": "Kiwi",
+            "id": 66,
+            "categoryId": 1,
+            "family": "Actinidiaceae",
+            "order": "Struthioniformes",
+            "image": "https://th.bing.com/th/id/OIP.Ul-_PhbhE7HeEAj72KXgQQHaEK?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 15,
+                "protein": 1.1,
+                "fat": 0.5,
+                "calories": 61,
+                "sugar": 9
+            }
+        },
+        {
+            "genus": "Citrus",
+            "name": "Lemon",
+            "id": 26,
+            "categoryId": 1,
+            "family": "Rutaceae",
+            "order": "Sapindales",
+            "image": "https://th.bing.com/th/id/OIP.Ul-_PhbhE7HeEAj72KXgQQHaEK?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 9,
+                "protein": 1.1,
+                "fat": 0.3,
+                "calories": 29,
+                "sugar": 2.5
+            }
+        },
+        {
+            "genus": "Citrus",
+            "name": "Lime",
+            "id": 44,
+            "categoryId": 1,
+            "family": "Rutaceae",
+            "order": "Sapindales",
+            "image": "https://www.tasteofhome.com/wp-content/uploads/2018/09/limes_58574665.jpg?w=1200",
+            "nutritions": {
+                "carbohydrates": 8.4,
+                "protein": 0.3,
+                "fat": 0.1,
+                "calories": 25,
+                "sugar": 1.7
+            }
+        },
+        {
+            "genus": "Vaccinium",
+            "name": "Lingonberry",
+            "id": 65,
+            "categoryId": 1,
+            "family": "Ericaceae",
+            "order": "Ericales",
+            "image": "https://th.bing.com/th/id/OIP.2RLVAiBbXqiFEvXeRCfdNAHaE7?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 11.3,
+                "protein": 0.75,
+                "fat": 0.34,
+                "calories": 50,
+                "sugar": 5.74
+            }
+        },
+        {
+            "genus": "Litchi",
+            "name": "Lychee",
+            "id": 67,
+            "categoryId": 1,
+            "family": "Sapindaceae",
+            "order": "Sapindales",
+            "image": "https://greenseedgarden.com/wp-content/uploads/2018/06/1062-fonqwy.jpg",
+            "nutritions": {
+                "carbohydrates": 17,
+                "protein": 0.8,
+                "fat": 0.44,
+                "calories": 66,
+                "sugar": 15
+            }
+        },
+        {
+            "genus": "Mangifera",
+            "name": "Mango",
+            "id": 27,
+            "categoryId": 1,
+            "family": "Anacardiaceae",
+            "order": "Sapindales",
+            "image": "https://th.bing.com/th/id/OIP.6yuZNtw7wlufvMZzXydKBAHaFj?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 15,
+                "protein": 0.82,
+                "fat": 0.38,
+                "calories": 60,
+                "sugar": 13.7
+            }
+        },
+        {
+            "genus": "Cucumis",
+            "name": "Melon",
+            "id": 41,
+            "categoryId": 1,
+            "family": "Cucurbitaceae",
+            "order": "Cucurbitaceae",
+            "image": "https://th.bing.com/th/id/R.b212beb8401f223a039b2f9c18a73db0?rik=a%2b69GkRnzw%2fQvA&riu=http%3a%2f%2fwww.bestherbalhealth.com%2fwp-content%2fuploads%2f2014%2f07%2fMelon.jpg&ehk=mAcDEid5d0WXGkBZMcfI3NDBBUL2yX%2brHJvf94C6KaE%3d&risl=&pid=ImgRaw&r=0",
+            "nutritions": {
+                "carbohydrates": 8,
+                "protein": 0,
+                "fat": 0,
+                "calories": 34,
+                "sugar": 8
+            }
+        },
+        {
+            "genus": "Citrus",
+            "name": "Orange",
+            "id": 2,
+            "categoryId": 1,
+            "family": "Rutaceae",
+            "order": "Sapindales",
+            "image": "https://th.bing.com/th/id/R.1fea3b56c4f53618f56a5f3961c46a21?rik=iv32H8KQVc%2b%2buQ&pid=ImgRaw&r=0",
+            "nutritions": {
+                "carbohydrates": 8.3,
+                "protein": 1,
+                "fat": 0.2,
+                "calories": 43,
+                "sugar": 8.2
+            }
+        },
+        {
+            "genus": "Carica",
+            "name": "Papaya",
+            "id": 42,
+            "categoryId": 1,
+            "family": "Caricaceae",
+            "order": "Caricacea",
+            "image": "https://th.bing.com/th/id/OIP.ywLLepjn2JnTBiXu7Id0igHaF7?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 11,
+                "protein": 0,
+                "fat": 0.4,
+                "calories": 43,
+                "sugar": 1
+            }
+        },
+        {
+            "genus": "Passiflora",
+            "name": "Passionfruit",
+            "id": 70,
+            "categoryId": 1,
+            "family": "Passifloraceae",
+            "order": "Malpighiales",
+            "image": "https://i1.wp.com/freckledcalifornian.com/wp-content/uploads/2019/10/frederick-purple-passion-fruit.jpg?w=1080&ssl=1",
+            "nutritions": {
+                "carbohydrates": 22.4,
+                "protein": 2.2,
+                "fat": 0.7,
+                "calories": 97,
+                "sugar": 11.2
+            }
+        },
+        {
+            "genus": "Pyrus",
+            "name": "Pear",
+            "id": 4,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://static.fanpage.it/wp-content/uploads/sites/22/2018/12/pear4.jpg",
+            "nutritions": {
+                "carbohydrates": 15,
+                "protein": 0.4,
+                "fat": 0.1,
+                "calories": 57,
+                "sugar": 10
+            }
+        },
+        {
+            "genus": "Diospyros",
+            "name": "Persimmon",
+            "id": 52,
+            "categoryId": 1,
+            "family": "Ebenaceae",
+            "order": "Rosales",
+            "image": "https://th.bing.com/th/id/OIP.U29CQTBi1MxBr43Gx7YH1gHaGG?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 18,
+                "protein": 0,
+                "fat": 0,
+                "calories": 81,
+                "sugar": 18
+            }
+        },
+        {
+            "genus": "Ananas",
+            "name": "Pineapple",
+            "id": 10,
+            "categoryId": 1,
+            "family": "Bromeliaceae",
+            "order": "Poales",
+            "image": "https://th.bing.com/th/id/OIP.hg5mXhbkToKLSXu4AGwh3wHaE8?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 13.12,
+                "protein": 0.54,
+                "fat": 0.12,
+                "calories": 50,
+                "sugar": 9.85
+            }
+        },
+        {
+            "genus": "Prunus",
+            "name": "Plum",
+            "id": 71,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://th.bing.com/th/id/R.c17bf6b6b4e747bd93fcb1c83d07b480?rik=jzTDU3nR9gBHxA&riu=http%3a%2f%2fhealthcautions.com%2fwp-content%2fuploads%2f2017%2f10%2fplums-1-1024x683.jpg&ehk=Fo%2bC4%2fPYmllbMQZAlD83jlPyNaSW5EMxhtt8uktBKRw%3d&risl=&pid=ImgRaw&r=0",
+            "nutritions": {
+                "carbohydrates": 11.4,
+                "protein": 0.7,
+                "fat": 0.28,
+                "calories": 46,
+                "sugar": 9.92
+            }
+        },
+        {
+            "genus": "Rubus",
+            "name": "Raspberry",
+            "id": 23,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://th.bing.com/th/id/OIP.cy2djoyGX-8hbzsX9o95xQHaEe?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 12,
+                "protein": 1.2,
+                "fat": 0.7,
+                "calories": 53,
+                "sugar": 4.4
+            }
+        },
+        {
+            "genus": "Fragaria",
+            "name": "Strawberry",
+            "id": 3,
+            "categoryId": 1,
+            "family": "Rosaceae",
+            "order": "Rosales",
+            "image": "https://th.bing.com/th/id/OIP.zYjlIw2W9JDs-WmDEZrIpQHaFj?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 5.5,
+                "protein": 0.8,
+                "fat": 0.4,
+                "calories": 29,
+                "sugar": 5.4
+            }
+        },
+        {
+            "genus": "Solanum",
+            "name": "Tomato",
+            "id": 5,
+            "categoryId": 1,
+            "family": "Solanaceae",
+            "order": "Solanales",
+            "image": "https://th.bing.com/th/id/OIP.1iIRo9H8FpuRU5zSskvviwHaE5?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 3.9,
+                "protein": 0.9,
+                "fat": 0.2,
+                "calories": 74,
+                "sugar": 2.6
+            }
+        },
+        {
+            "genus": "Spondias",
+            "name": "Umbu",
+            "id": 73,
+            "categoryId": 1,
+            "family": "Anacardiaceae",
+            "order": "0",
+            "image": "https://th.bing.com/th/id/OIP.TMZWweUW1PTtqjIoPKMJ4QHaFK?pid=ImgDet&rs=1",
+            "nutritions": {
+                "carbohydrates": 0,
+                "protein": 0,
+                "fat": 0,
+                "calories": 0,
+                "sugar": 0
+            }
+        },
+        {
+            "genus": "Citrullus",
+            "name": "Watermelon",
+            "id": 25,
+            "categoryId": 1,
+            "family": "Cucurbitaceae",
+            "order": "Cucurbitales",
+            "image": "https://foodprint.org/wp-content/uploads/2018/10/AdobeStock_168245990-e1539129146982.jpeg",
+            "nutritions": {
+                "carbohydrates": 8,
+                "protein": 0.6,
+                "fat": 0.2,
+                "calories": 30,
+                "sugar": 6
+            }
+        },
+        {
+            "name": "Cabbage",
+            "id": 200,
+            "categoryId": 2,
+            "image": "https://www.freepngimg.com/thumb/categories/2970.png",
+            "nutritions": {
+                "carbohydrates": 1.3,
+                "protein": 0.3,
+                "fat": 0,
+                "calories": 6,
+                "sugar": 0.7
+            }
+        },
+        {
+            "name": "Capsicum",
+            "id": 201,
+            "categoryId": 2,
+            "image": "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
+            "nutritions": {
+                "carbohydrates": 7,
+                "protein": 1.4,
+                "fat": 0.3,
+                "calories": 30,
+                "sugar": 4
+            }
+        },
+        {
+            "name": "Garlic",
+            "id": 202,
+            "categoryId": 2,
+            "image": "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
+            "nutritions": {
+                "carbohydrates": 1,
+                "protein": 0.2,
+                "fat": 0,
+                "calories": 4.5,
+                "sugar": 0
+            }
+        },
+            {
+                "name": "Beetroot",
+                "id": 203,
+                "categoryId": 2,
+                "image": "https://pngimg.com/uploads/beet/beet_PNG28.png",
+                "nutritions": {
+                    "carbohydrates": 8,
+                    "protein": 1,
+                    "fat": 0,
+                    "calories": 35,
+                    "sugar": 6
+                }
+            },
+            {
+                "name": "Celery",
+                "id": 204,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP.qvT2NHi9MWCZ6J5GABKG3wHaJQ?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 4,
+                    "protein": 1,
+                    "fat": 0,
+                    "calories": 15,
+                    "sugar": 0
+                }
+            },
+            {
+                "name": "Carrots",
+                "id": 205,
+                "categoryId": 2,
+                "image": "https://www.freepngimg.com/thumb/categories/2971.png",
+                "nutritions": {
+                    "carbohydrates": 7,
+                    "protein": 1,
+                    "fat": 0,
+                    "calories": 30,
+                    "sugar": 3
+                }
+            },
+            {
+                "name": "Onion",
+                "id": 206,
+                "categoryId": 2,
+                "image": "https://www.freepngimg.com/thumb/onion/10-red-onion-png-image-thumb.png",
+                "nutritions": {
+                    "carbohydrates": 16,
+                    "protein": 1,
+                    "fat": 0,
+                    "calories": 60,
+                    "sugar": 0
+                }
+            },
+            {
+                "name": "Potato",
+                "id": 207,
+                "categoryId": 2,
+                "image": "https://www.freepngimg.com/thumb/potato/7-potato-png-images-pictures-download-thumb.png",
+                "nutritions": {
+                    "carbohydrates": 26,
+                    "protein": 3,
+                    "fat": 0,
+                    "calories": 110,
+                    "sugar": 1
+                }
+            },
+            {
+                "name": "Zucchini",
+                "id": 208,
+                "categoryId": 2,
+                "image": "https://food.amerikanki.com/wp-content/uploads/2020/08/Zucchini.jpg",
+                "nutritions": {
+                    "carbohydrates": 6,
+                    "protein": 2,
+                    "fat": 1,
+                    "calories": 33,
+                    "sugar": 5
+                }
+            },
+            {
+                "name": "Romaine Lettuce",
+                "id": 209,
+                "categoryId": 2,
+                "image": "https://expressfreightfinance.com/wp-content/uploads/2019/01/close-up-garden-green-1199562.jpg",
+                "nutritions": {
+                    "carbohydrates": 2,
+                    "protein": 0,
+                    "fat": 0,
+                    "calories": 10,
+                    "sugar": 0
+                }
+            },
+            {
+                "name": "Peas",
+                "id": 210,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP.4p7z6DUM2o94gnaBtGPy_gHaE8?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 11,
+                    "protein": 4.1,
+                    "fat": 0.2,
+                    "calories": 62,
+                    "sugar": 2.9
+                }
+            },
+            {
+                "name": "Green Beans",
+                "id": 211,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/R.1166301a0d5b14abca6af5e3167cf82a?rik=LQUq8RhPJhbJPg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-RYIbGmjSBOA%2fT4JbY1bvJ2I%2fAAAAAAAAA0c%2fuc2fU30Kmus%2fs1600%2fgreenbeans5.jpg&ehk=yxQp3W7K2cy7Q8wCnUMa8eV4sX6ddIAk2WF5ge320d4%3d&risl=&pid=ImgRaw&r=0",
+                "nutritions": {
+                    "carbohydrates": 7,
+                    "protein": 1.8,
+                    "fat": 0.2,
+                    "calories": 31,
+                    "sugar": 3
+                }
+            },
+            {
+                "name": "Corn on the Cob",
+                "id": 212,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP.bYH_MJ10Arr7UjIA7B4j1wHaLG?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 19,
+                    "protein": 3.3,
+                    "fat": 1.4,
+                    "calories": 88,
+                    "sugar": 3
+                }
+            },
+            {
+                "name": "Squash",
+                "id": 213,
+                "categoryId": 2,
+                "image": "https://sakatavegetables.com/wp-content/uploads/2017/10/Squash_Quantum-988x1024.jpg",
+                "nutritions": {
+                    "carbohydrates": 9,
+                    "protein": 0.7,
+                    "fat": 0.1,
+                    "calories": 34,
+                    "sugar": 2.5
+                }
+            },
+            {
+                "name": "Spinach",
+                "id": 214,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP.hW-xxeAekvnYD9Z-lUHWNQHaE8?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 1.1,
+                    "protein": 0.9,
+                    "fat": 0.1,
+                    "calories": 6.9,
+                    "sugar": 0.1
+                }
+            },
+            {
+                "name": "Cucumber",
+                "id": 215,
+                "categoryId": 2,
+                "image": "https://www.neseed.com/wp-content/uploads/2018/12/56200-Tendergreen-Cucumber.jpg",
+                "nutritions": {
+                    "carbohydrates": 4,
+                    "protein": 0.6,
+                    "fat": 0.1,
+                    "calories": 16,
+                    "sugar": 2
+                }
+            },
+            {
+                "name": "Eggplant",
+                "id": 216,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP.R7fidmMZnCXihdfXrXr6rgHaGz?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 4.8,
+                    "protein": 0.8,
+                    "fat": 0.1,
+                    "calories": 21,
+                    "sugar": 2.9
+                }
+            },
+            {
+                "name": "Asparagus",
+                "id": 217,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/R.6a8c86f26a42fff504a70768fe9e1160?rik=rHSEQql8bKTGRw&riu=http%3a%2f%2fwww.windsoreats.com%2fwp-content%2fuploads%2f2016%2f05%2fasparagus4.jpg&ehk=c1ofhKpevSEM%2bIZ8Om6OZZFXjYwZVJv%2bSxcW6pl90xc%3d&risl=&pid=ImgRaw&r=0",
+                "nutritions": {
+                    "carbohydrates": 5.2,
+                    "protein": 2.9,
+                    "fat": 0.2,
+                    "calories": 27,
+                    "sugar": 2.5
+                }
+            },
+            {
+                "name": "Mushroom",
+                "id": 218,
+                "categoryId": 2,
+                "image": "https://i0.wp.com/nypost.com/wp-content/uploads/sites/2/2017/01/shutterstock_253955395.jpg?quality=90&strip=all&ssl=1",
+                "nutritions": {
+                    "carbohydrates": 3.4,
+                    "protein": 2.1,
+                    "fat": 0.4,
+                    "calories": 20,
+                    "sugar": 0.4
+                }
+            },
+            {
+                "name": "Cauliflower",
+                "id": 220,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/R.a5a0561039ac4ca1f7fa45aefb553492?rik=AZw%2bIyD1Tc7O%2fQ&riu=http%3a%2f%2fnashsorganicproduce.com%2frecipes%2fwp-content%2fuploads%2f2013%2f04%2fcauliflower.jpg&ehk=vmhsehMOgrTz%2b6r%2fqw8GRU2C4Tt17fVhcsGJkAsGq20%3d&risl=&pid=ImgRaw&r=0",
+                "nutritions": {
+                    "carbohydrates": 5.3,
+                    "protein": 2.1,
+                    "fat": 0.3,
+                    "calories": 27,
+                    "sugar": 2
+                }
+            },
+            {
+                "name": "Broccoli",
+                "id": 221,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP._xvyh6rZBbY28N9vg3tX9QHaFj?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 6,
+                    "protein": 2.6,
+                    "fat": 0.3,
+                    "calories": 31,
+                    "sugar": 1.5
+                }
+            },
+            {
+                "name": "Chayote",
+                "id": 222,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP.j9CX9hMHX0z2NReq__vx4gHaFR?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 6,
+                    "protein": 1.1,
+                    "fat": 0.2,
+                    "calories": 25,
+                    "sugar": 2
+                }
+            },
+            {
+                "name": "Red Cabbage",
+                "id": 223,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/R.1c93965905da9c136784ea245263caa3?rik=dvmBZrBPr2%2b63Q&pid=ImgRaw&r=0",
+                "nutritions": {
+                    "carbohydrates": 6.6,
+                    "protein": 1.3,
+                    "fat": 0.1,
+                    "calories": 28,
+                    "sugar": 3.4
+                }
+            },
+            {
+                "name": "Pumpkin",
+                "id": 224,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/OIP.LkKZTuB8f1fLuuBY4uXg-wHaFj?pid=ImgDet&rs=1",
+                "nutritions": {
+                    "carbohydrates": 6,
+                    "protein": 1,
+                    "fat": 0.1,
+                    "calories": 26,
+                    "sugar": 3
+                }
+            },
+            {
+                "name": "Radish",
+                "id": 225,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/R.6f97de57b0360e34f5b82bf65c0b9267?rik=5XuNSnnOZOj80w&pid=ImgRaw&r=0",
+                "nutritions": {
+                    "carbohydrates": 7,
+                    "protein": 0.9,
+                    "fat": 0.2,
+                    "calories": 30,
+                    "sugar": 4
+                }
+            }
+        ],
+        "posts": [
+            {
+                "id": 1,
+                "title": "json-server",
+                "author": "typicode"
+            }
+        ],
+        "userSignup": [
+            {
+                "fullname": "",
+                "phoneNumber": 12345,
+                "email": "as@jb.com",
+                "password": "1234",
+                "id": 1
+            },
+            {
+                "fullname": "",
+                "phoneNumber": 1234,
+                "email": "as.jb.com",
+                "password": "1234",
+                "id": 2
+            },
+            {
+                "fullname": "",
+                "phoneNumber": 1234,
+                "email": "as@jc.com",
+                "password": "1234",
+                "id": 3
+            }
+        ],
+        "profile": {
+            "name": "typicode"
+        }
     }
-  ],
-  "products": [
-    {
-      "genus": "Malus",
-      "name": "Apple",
-      "id": 6,
-      "categoryId": 1,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "https://pngimg.com/uploads/apple/apple_PNG12405.png",
-      "nutritions": {
-        "carbohydrates": 11.4,
-        "protein": 0.3,
-        "fat": 0.4,
-        "calories": 52,
-        "sugar": 10.3
-      }
-    },
-    {
-      "genus": "Prunus",
-      "name": "Apricot",
-      "id": 35,
-      "categoryId": 1,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
-      "nutritions": {
-        "carbohydrates": 3.9,
-        "protein": 0.5,
-        "fat": 0.1,
-        "calories": 15,
-        "sugar": 3.2
-      }
-    },
-    {
-      "genus": "Musa",
-      "name": "Banana",
-      "id": 1,
-      "categoryId": 1,
-      "family": "Musaceae",
-      "order": "Zingiberales",
-      "image": "https://image.shutterstock.com/image-photo/bunch-bananas-isolated-on-white-260nw-1722111529.jpg",
-      "nutritions": {
-        "carbohydrates": 22,
-        "protein": 1,
-        "fat": 0.2,
-        "calories": 96,
-        "sugar": 17.2
-      }
-    },
-    {
-      "genus": "Rubus",
-      "name": "Blackberry",
-      "id": 64,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "https://image.shutterstock.com/image-photo/blackberry-isolated-on-white-background-260nw-1505050502.jpg",
-      "nutritions": {
-        "carbohydrates": 9,
-        "protein": 1.3,
-        "fat": 0.4,
-        "calories": 40,
-        "sugar": 4.5
-      }
-    },
-    {
-      "genus": "Fragaria",
-      "name": "Blueberry",
-      "id": 33,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "https://image.shutterstock.com/image-photo/blueberry-isolated-leaves-on-white-260nw-1932312230.jpg",
-      "nutritions": {
-        "carbohydrates": 5.5,
-        "protein": 0,
-        "fat": 0.4,
-        "calories": 29,
-        "sugar": 5.4
-      }
-    },
-    {
-      "genus": "Prunus",
-      "name": "Cherry",
-      "id": 9,
-      "family": "Rosaceae",
-      "order": "None",
-      "image": "https://image.shutterstock.com/image-photo/cherry-isolated-sour-cherries-leaf-260nw-2090063473.jpg",
-      "nutritions": {
-        "carbohydrates": 12,
-        "protein": 1,
-        "fat": 0.3,
-        "calories": 50,
-        "sugar": 8
-      }
-    },
-    {
-      "genus": "Durio",
-      "name": "Durian",
-      "id": 60,
-      "family": "Malvaceae",
-      "order": "Malvales",
-      "image": "https://www.shutterstock.com/image-photo/durian-fruit-ripe-tasty-that-has-1726591720",
-      "nutritions": {
-        "carbohydrates": 27.1,
-        "protein": 1.5,
-        "fat": 5.3,
-        "calories": 147,
-        "sugar": 6.75
-      }
-    },
-    {
-      "genus": "Ficus",
-      "name": "Fig",
-      "id": 68,
-      "family": "Moraceae",
-      "order": "Rosales",
-      "image": "https://www.shutterstock.com/image-photo/tasty-figs-bowl-on-wooden-background-1901618311",
-      "nutritions": {
-        "carbohydrates": 19,
-        "protein": 0.8,
-        "fat": 0.3,
-        "calories": 74,
-        "sugar": 16
-      }
-    },
-    {
-      "genus": "Ribes",
-      "name": "Gooseberry",
-      "id": 69,
-      "family": "Grossulariaceae",
-      "order": "Saxifragales",
-      "image": "https://www.shutterstock.com/image-photo/closeup-three-indian-gooseberry-fruits-amla-1529627396",
-      "nutritions": {
-        "carbohydrates": 10,
-        "protein": 0.9,
-        "fat": 0.6,
-        "calories": 44,
-        "sugar": 0
-      }
-    },
-    {
-      "genus": "Vitis",
-      "name": "Grapes",
-      "id": 47,
-      "family": "Vitaceae",
-      "order": "Vitales",
-      "image": "https://www.shutterstock.com/image-photo/grapes-basket-on-wooden-background-harvesting-1429544153",
-      "nutritions": {
-        "carbohydrates": 18.1,
-        "protein": 0.72,
-        "fat": 0.16,
-        "calories": 69,
-        "sugar": 15.48
-      }
-    },
-    {
-      "genus": "Malus",
-      "name": "GreenApple",
-      "id": 72,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "",
-      "nutritions": {
-        "carbohydrates": 3.1,
-        "protein": 0.4,
-        "fat": 0.1,
-        "calories": 21,
-        "sugar": 6.4
-      }
-    },
-    {
-      "genus": "Psidium",
-      "name": "Guava",
-      "id": 37,
-      "family": "Myrtaceae",
-      "order": "Myrtales",
-      "image": "https://www.shutterstock.com/image-photo/isolated-guavas-one-whole-guava-fruit-1666538107",
-      "nutritions": {
-        "carbohydrates": 14,
-        "protein": 2.6,
-        "fat": 1,
-        "calories": 68,
-        "sugar": 9
-      }
-    },
-    {
-      "genus": "Apteryx",
-      "name": "Kiwi",
-      "id": 66,
-      "family": "Actinidiaceae",
-      "order": "Struthioniformes",
-      "image": "https://www.shutterstock.com/image-photo/ripe-whole-kiwi-fruit-half-isolated-699645964",
-      "nutritions": {
-        "carbohydrates": 15,
-        "protein": 1.1,
-        "fat": 0.5,
-        "calories": 61,
-        "sugar": 9
-      }
-    },
-    {
-      "genus": "Citrus",
-      "name": "Lemon",
-      "id": 26,
-      "family": "Rutaceae",
-      "order": "Sapindales",
-      "image": "https://www.shutterstock.com/image-photo/lemon-fruit-leaf-isolate-whole-half-1727353507",
-      "nutritions": {
-        "carbohydrates": 9,
-        "protein": 1.1,
-        "fat": 0.3,
-        "calories": 29,
-        "sugar": 2.5
-      }
-    },
-    {
-      "genus": "Citrus",
-      "name": "Lime",
-      "id": 44,
-      "family": "Rutaceae",
-      "order": "Sapindales",
-      "image": "https://www.shutterstock.com/image-photo/natural-fresh-lime-water-drops-sliced-1255880620",
-      "nutritions": {
-        "carbohydrates": 8.4,
-        "protein": 0.3,
-        "fat": 0.1,
-        "calories": 25,
-        "sugar": 1.7
-      }
-    },
-    {
-      "genus": "Vaccinium",
-      "name": "Lingonberry",
-      "id": 65,
-      "family": "Ericaceae",
-      "order": "Ericales",
-      "image": "https://www.shutterstock.com/image-photo/lingonberry-leaves-isolated-on-white-background-1470022979",
-      "nutritions": {
-        "carbohydrates": 11.3,
-        "protein": 0.75,
-        "fat": 0.34,
-        "calories": 50,
-        "sugar": 5.74
-      }
-    },
-    {
-      "genus": "Litchi",
-      "name": "Lychee",
-      "id": 67,
-      "family": "Sapindaceae",
-      "order": "Sapindales",
-      "image": "https://www.shutterstock.com/image-photo/lychee-isolated-on-white-background-1897631905",
-      "nutritions": {
-        "carbohydrates": 17,
-        "protein": 0.8,
-        "fat": 0.44,
-        "calories": 66,
-        "sugar": 15
-      }
-    },
-    {
-      "genus": "Mangifera",
-      "name": "Mango",
-      "id": 27,
-      "family": "Anacardiaceae",
-      "order": "Sapindales",
-      "image": "https://www.shutterstock.com/image-photo/lychee-isolated-on-white-background-1897631905",
-      "nutritions": {
-        "carbohydrates": 15,
-        "protein": 0.82,
-        "fat": 0.38,
-        "calories": 60,
-        "sugar": 13.7
-      }
-    },
-    {
-      "genus": "Cucumis",
-      "name": "Melon",
-      "id": 41,
-      "family": "Cucurbitaceae",
-      "order": "Cucurbitaceae",
-      "image": "https://www.shutterstock.com/image-photo/topview-on-different-fresh-melons-some-1381133192",
-      "nutritions": {
-        "carbohydrates": 8,
-        "protein": 0,
-        "fat": 0,
-        "calories": 34,
-        "sugar": 8
-      }
-    },
-    {
-      "genus": "Citrus",
-      "name": "Orange",
-      "id": 2,
-      "family": "Rutaceae",
-      "order": "Sapindales",
-      "image": "https://www.shutterstock.com/image-photo/orange-cut-half-green-leaves-isolated-1927497314",
-      "nutritions": {
-        "carbohydrates": 8.3,
-        "protein": 1,
-        "fat": 0.2,
-        "calories": 43,
-        "sugar": 8.2
-      }
-    },
-    {
-      "genus": "Carica",
-      "name": "Papaya",
-      "id": 42,
-      "family": "Caricaceae",
-      "order": "Caricacea",
-      "image": "https://www.shutterstock.com/image-photo/fresh-ripe-papaya-fruits-green-leaves-1892565679",
-      "nutritions": {
-        "carbohydrates": 11,
-        "protein": 0,
-        "fat": 0.4,
-        "calories": 43,
-        "sugar": 1
-      }
-    },
-    {
-      "genus": "Passiflora",
-      "name": "Passionfruit",
-      "id": 70,
-      "family": "Passifloraceae",
-      "order": "Malpighiales",
-      "image": "https://www.shutterstock.com/image-photo/purple-passion-fruit-passiflora-edulis-cut-1272432640",
-      "nutritions": {
-        "carbohydrates": 22.4,
-        "protein": 2.2,
-        "fat": 0.7,
-        "calories": 97,
-        "sugar": 11.2
-      }
-    },
-    {
-      "genus": "Pyrus",
-      "name": "Pear",
-      "id": 4,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "https://www.shutterstock.com/image-photo/isolated-pears-one-half-green-pear-1494561377",
-      "nutritions": {
-        "carbohydrates": 15,
-        "protein": 0.4,
-        "fat": 0.1,
-        "calories": 57,
-        "sugar": 10
-      }
-    },
-    {
-      "genus": "Diospyros",
-      "name": "Persimmon",
-      "id": 52,
-      "family": "Ebenaceae",
-      "order": "Rosales",
-      "image": "https://www.shutterstock.com/image-photo/fresh-ripe-persimmons-leaf-isolated-on-1421497226",
-      "nutritions": {
-        "carbohydrates": 18,
-        "protein": 0,
-        "fat": 0,
-        "calories": 81,
-        "sugar": 18
-      }
-    },
-    {
-      "genus": "Ananas",
-      "name": "Pineapple",
-      "id": 10,
-      "family": "Bromeliaceae",
-      "order": "Poales",
-      "image": "https://www.shutterstock.com/image-photo/fresh-ripe-pineapple-fruit-slices-isolated-1609022182",
-      "nutritions": {
-        "carbohydrates": 13.12,
-        "protein": 0.54,
-        "fat": 0.12,
-        "calories": 50,
-        "sugar": 9.85
-      }
-    },
-    {
-      "genus": "Prunus",
-      "name": "Plum",
-      "id": 71,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "https://www.shutterstock.com/image-photo/juicy-red-plum-fruits-cut-half-1661209357",
-      "nutritions": {
-        "carbohydrates": 11.4,
-        "protein": 0.7,
-        "fat": 0.28,
-        "calories": 46,
-        "sugar": 9.92
-      }
-    },
-    {
-      "genus": "Rubus",
-      "name": "Raspberry",
-      "id": 23,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "",
-      "nutritions": {
-        "carbohydrates": 12,
-        "protein": 1.2,
-        "fat": 0.7,
-        "calories": 53,
-        "sugar": 4.4
-      }
-    },
-    {
-      "genus": "Fragaria",
-      "name": "Strawberry",
-      "id": 3,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "image": "https://www.shutterstock.com/image-photo/raspberry-fruit-isolated-over-white-background-349554923",
-      "nutritions": {
-        "carbohydrates": 5.5,
-        "protein": 0.8,
-        "fat": 0.4,
-        "calories": 29,
-        "sugar": 5.4
-      }
-    },
-    {
-      "genus": "Solanum",
-      "name": "Tomato",
-      "id": 5,
-      "family": "Solanaceae",
-      "order": "Solanales",
-      "image": "https://www.shutterstock.com/image-photo/tomato-isolated-on-white-background-fresh-1565321857",
-      "nutritions": {
-        "carbohydrates": 3.9,
-        "protein": 0.9,
-        "fat": 0.2,
-        "calories": 74,
-        "sugar": 2.6
-      }
-    },
-    {
-      "genus": "Spondias",
-      "name": "Umbu",
-      "id": 73,
-      "family": "Anacardiaceae",
-      "order": "0",
-      "image": "https://www.shutterstock.com/image-photo/ripe-umbu-spondias-tuberosa-fruits-isolated-2090840734",
-      "nutritions": {
-        "carbohydrates": 0,
-        "protein": 0,
-        "fat": 0,
-        "calories": 0,
-        "sugar": 0
-      }
-    },
-    {
-      "genus": "Citrullus",
-      "name": "Watermelon",
-      "id": 25,
-      "family": "Cucurbitaceae",
-      "order": "Cucurbitales",
-      "image": "https://www.shutterstock.com/image-photo/whole-half-watermelon-isolated-on-white-1422071948",
-      "nutritions": {
-        "carbohydrates": 8,
-        "protein": 0.6,
-        "fat": 0.2,
-        "calories": 30,
-        "sugar": 6
-      }
-    }
-  ],
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "userSignup": [
-    {
-      "fullname": "",
-      "phoneNumber": 12345,
-      "email": "as@jb.com",
-      "password": "1234",
-      "id": 1
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 1234,
-      "email": "as.jb.com",
-      "password": "1234",
-      "id": 2
-    },
-    {
-      "fullname": "",
-      "phoneNumber": 1234,
-      "email": "as@jc.com",
-      "password": "1234",
-      "id": 3
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
