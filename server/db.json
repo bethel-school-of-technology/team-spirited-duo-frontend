@@ -511,6 +511,13 @@
       "email": "as@jc.com",
       "password": "1234",
       "id": 3
+    },
+    {
+      "fullname": "",
+      "phoneNumber": 2163815584,
+      "email": "shorter4034@gmail.com",
+      "password": "1234",
+      "id": 4
     }
   ],
   "cart": []
