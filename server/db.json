@@ -834,6 +834,19 @@
                     "calories": 30,
                     "sugar": 4
                 }
+            },
+            {
+                "name": "Artichoke",
+                "id": 226,
+                "categoryId": 2,
+                "image": "https://th.bing.com/th/id/R.6f97de57b0360e34f5b82bf65c0b9267?rik=5XuNSnnOZOj80w&pid=ImgRaw&r=0",
+                "nutritions": {
+                    "carbohydrates": 10.5,
+                    "protein": 3.3,
+                    "fat": 0.2,
+                    "calories": 47,
+                    "sugar": 1
+                }
             }
         ],
         "posts": [
