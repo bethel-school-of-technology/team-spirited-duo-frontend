@@ -20,18 +20,19 @@
                 <div class="card-body">
                     <h5 class="card-title"> {{product.name}}</h5>
                     <br>
-                   
+                    <br>
                     <p> Each product is hand picked! See below for the nutrients. </p>
                     <td> Carbohydrates: {{product.nutritions.carbohydrates}} g </td>
                     <td> Protein: {{product.nutritions.protein}} g </td>
                     <td> Fat: {{product.nutritions.fat}} g </td>
                     <td> Calories: {{product.nutritions.calories}} g </td>
                     <td> Sugar: {{product.nutritions.sugar}} g </td>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <button class="btn-class" aria-label="Cart" type="button" (click)="addToCart(product.id, product.name, product.image)">Add to Cart</button>
                 </div>
             </div>
         </div>
-    </div>
+        </div>  
+   
 
 </body>
 
