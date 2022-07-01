@@ -518,6 +518,13 @@
       "email": "shorter4034@gmail.com",
       "password": "1234",
       "id": 4
+    },
+    {
+      "fullName": "Roland Shorter",
+      "phoneNumber": 2163815584,
+      "email": "shorter4035@gmail.com",
+      "password": "1235",
+      "id": 5
     }
   ],
   "cart": []

@@ -28,7 +28,7 @@ export class LoginComponent implements OnInit {
         if (user) {
           alert("You have successfully logged in!");
           this.loginForm.reset();
-          this.router.navigate(['category-list'])
+          this.router.navigate(['product-list'])
         } else {
           alert("User not found!");
         }
