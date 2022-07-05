@@ -30,12 +30,12 @@ export class ProductListComponent implements OnInit {
   addToCart(id: number, name:string, image:string){
     alert('started add tocart');
     let cart = {
-      id: id, name: name, image: image, quantity: 1
+      productId: id, name: name, image: image, quantity: 1
     };
     this.http.post<any>("http://localhost:3000/cart", cart)
             .subscribe(res => {
               alert("You have successfully added item to cart");
-              this.router.navigate(['cart']);
+              /*this.router.navigate(['cart']);*/
             })
   }
 

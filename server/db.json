@@ -902,28 +902,36 @@
   ],
   "cart": [
     {
-      "id": 6,
-      "name": "Apple",
-      "image": "https://pngimg.com/uploads/apple/apple_PNG12405.png",
-      "quantity": "2"
-    },
-    {
-      "id": 35,
-      "name": "Apricot",
-      "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
-      "quantity": 1
-    },
-    {
       "id": 1,
       "name": "Banana",
       "image": "https://image.shutterstock.com/image-photo/bunch-bananas-isolated-on-white-260nw-1722111529.jpg",
-      "quantity": 1
+      "quantity": "3"
     },
     {
       "id": 200,
       "name": "Cabbage",
       "image": "https://www.freepngimg.com/thumb/categories/2970.png",
       "quantity": 1
+    },
+    {
+      "id": 201,
+      "name": "Capsicum",
+      "image": "https://www.nicepng.com/png/detail/52-525615_green-bell-pepper-png-green-capsicum-png.png",
+      "quantity": 1
+    },
+    {
+      "productId": 35,
+      "name": "Apricot",
+      "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
+      "quantity": 1,
+      "id": 202
+    },
+    {
+      "productId": 35,
+      "name": "Apricot",
+      "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
+      "quantity": 1,
+      "id": 203
     }
   ]
 }
