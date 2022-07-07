@@ -27,6 +27,7 @@ export class LoginComponent implements OnInit {
         });
         if (user) {
           alert("You have successfully logged in!");
+          localStorage.setItem("user", user);
           this.loginForm.reset();
           this.router.navigate(['product-list'])
         } else {
