@@ -8,7 +8,6 @@
       "id": 2,
       "name": "Vegetables"
     }
-   
   ],
   "products": [
     {
@@ -888,9 +887,24 @@
       "email": "sss@sss.com",
       "password": "1234",
       "id": 9
+    },
+    {
+      "fullName": "Jan",
+      "phoneNumber": 1213242,
+      "email": "qw@em.com",
+      "password": "1234",
+      "id": 10
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "productId": 6,
+      "name": "Apple",
+      "image": "https://pngimg.com/uploads/apple/apple_PNG12405.png",
+      "quantity": 1,
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "userId": "4",
@@ -1105,6 +1119,88 @@
         }
       ],
       "id": 30
+    },
+    {
+      "userId": "4",
+      "date": "2022-07-14T21:01:40.854Z",
+      "orderItems": [
+        {
+          "name": "Squash",
+          "image": "https://sakatavegetables.com/wp-content/uploads/2017/10/Squash_Quantum-988x1024.jpg",
+          "quantity": 1
+        }
+      ],
+      "id": 31
+    },
+    {
+      "userId": "4",
+      "date": "2022-07-15T22:31:39.197Z",
+      "orderItems": [
+        {
+          "name": "Cabbage",
+          "image": "https://www.freepngimg.com/thumb/categories/2970.png",
+          "quantity": 1
+        }
+      ],
+      "id": 32
+    },
+    {
+      "userId": "4",
+      "date": "2022-07-18T23:09:16.660Z",
+      "orderItems": [
+        {
+          "name": "Apricot",
+          "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
+          "quantity": "5"
+        }
+      ],
+      "id": 33
+    },
+    {
+      "userId": "4",
+      "date": "2022-07-18T23:09:16.667Z",
+      "orderItems": [
+        {
+          "name": "Apricot",
+          "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
+          "quantity": "5"
+        },
+        {
+          "name": "Banana",
+          "image": "https://image.shutterstock.com/image-photo/bunch-bananas-isolated-on-white-260nw-1722111529.jpg",
+          "quantity": 1
+        }
+      ],
+      "id": 34
+    },
+    {
+      "userId": "10",
+      "date": "2022-07-18T23:11:27.435Z",
+      "orderItems": [
+        {
+          "name": "Apple",
+          "image": "https://pngimg.com/uploads/apple/apple_PNG12405.png",
+          "quantity": 1
+        }
+      ],
+      "id": 35
+    },
+    {
+      "userId": "10",
+      "date": "2022-07-18T23:11:27.437Z",
+      "orderItems": [
+        {
+          "name": "Apple",
+          "image": "https://pngimg.com/uploads/apple/apple_PNG12405.png",
+          "quantity": 1
+        },
+        {
+          "name": "Apricot",
+          "image": "https://image.shutterstock.com/image-photo/apricots-apricot-isolate-slice-on-260nw-1550462033.jpg",
+          "quantity": 1
+        }
+      ],
+      "id": 36
     }
   ],
   "orderItems": [
